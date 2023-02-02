@@ -5,12 +5,10 @@ import proplogo from '../images/prop44-logo.png'
 export const Navbar = (props) =>{ 
     return(
         <div class='row  position-sticky align-content-center justify-content-center  w-100' style={{ zIndex: '30' }}>
-        {/* <span className='navtitle font-weight-bold' >THE AFRICAN BULLY REGISTRY</span> */}
-
-        <div className='w-100'>
+        <div className='col-sm-12'>
             <nav class={`navbar navbar-light navbar-expand-lg ${props.navbar_dark}`}>
                 <Link class="navbar-brand " to="">
-                    <img src={proplogo} height='60px' width='100px'></img>
+                    <img src={proplogo} height='70px' width='100px'></img>
                     </Link>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -19,7 +17,7 @@ export const Navbar = (props) =>{
 
                 <div class="w-100 align-items-center justify-content-center collapse navbar-collapse" id="navbarNavDropdown">
                     
-                    <ul class="navbar-nav ml-auto">
+                    <ul class="navbar-nav ml-auto ">
                         <li class="nav-item active" >
                             <Link class="nav-link"  to="/">Post AD </Link>
                         </li>
