@@ -9,7 +9,7 @@ import AdsProfileMain from './pages/AdsProfileMain';
 function App()
 {
   return (
-    <div className="App">
+    <div className="App inter">
       <BrowserRouter>
         <Routes>
         <Route exact path='/' element={<AdsProfileMain />} />

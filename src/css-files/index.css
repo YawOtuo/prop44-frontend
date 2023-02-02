@@ -1,3 +1,6 @@
+.inter{
+    font-family: Inter;
+}
 .ads-card{
     box-shadow: 3px 2px 6px rgba(0, 0, 0, 0.1);
 border-radius: 10px;
@@ -5,5 +8,28 @@ border-radius: 10px;
 
 .border-ads-menu-right{
     border-right: 1px solid #C9C9C9;
+
+}
+
+.nav-shadow{
+    background: #FFFFFF;
+box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.view_height_100{
+    height: 100vh
+}
+
+.smaller-font-13{
+    font-size: 13px;
+}
+
+.smaller-font-20{
+    font-size: 20px;
+
+}
+
+.smaller-font-24{
+    font-size: 24px;
 
 }

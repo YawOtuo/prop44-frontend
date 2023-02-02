@@ -2,12 +2,12 @@ import personlogo from '../images/personlogo.png'
 
 export const AdsProfileMenu = ()=> {
     return(
-        <div className="container border-ads-menu-right ">
+        <div className="container border-ads-menu-right view_height_100 ">
             <div class="row align-items-center justify-content-center mb-5">
                 <div className="col-sm-10">
-                    <img src={personlogo} alt="" />
-                    <h4>Username</h4>
-                    <h5>+26158181851</h5>
+                    <img src={personlogo} alt="" width={'50%'} className='mb-2 mt-3'/>
+                    <h5 style={{'fontWeight': 500}} className='mb-1'>Username</h5>
+                    <p>+26158181851</p>
 
 
                 </div>
