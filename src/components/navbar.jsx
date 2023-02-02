@@ -21,18 +21,16 @@ export const Navbar = (props) =>{
                     
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active" >
-                            <Link class="nav-link"  to="/home">Post AD </Link>
+                            <Link class="nav-link"  to="/">Post AD </Link>
                         </li>
 
                         <li class="nav-item active">
-                            <Link class="nav-link"  to="/registration" id="navbarDropdownMenuLink">
+                            <Link class="nav-link"  to="/" id="navbarDropdownMenuLink">
                                 <img src={navprofile} width="150px" height="60px"></img>
                             </Link>
 
                         </li>
-                        <li class="nav-item active">
-                            <Link  class="nav-link" to="/sign_up">Sign Up</Link>
-                        </li>
+                        
                        
                     </ul>
                 </div>
