@@ -1,10 +1,12 @@
+import personlogo from '../images/personlogo.png'
+
 export const AdsProfileMenu = ()=> {
     return(
         <div className="container">
-            <div class="row align-items-center justify-content-center">
+            <div class="row align-items-center justify-content-center mb-5">
                 <div className="col-sm-10">
-                    <img src="" alt="" />
-                    <h4>USername</h4>
+                    <img src={personlogo} alt="" />
+                    <h4>Username</h4>
                     <h5>+26158181851</h5>
 
 

@@ -1,12 +1,17 @@
+import { Navbar } from '../components/navbar'
+import chennai2 from '../images/pic1-chennai2.png'
+import map from '../images/sanFransisco-map.png'
+
 export const AdsProfileEdit = () =>
 {
     return (
         <div className="container">
-            <div className="row align-items-center justify-content-center">
+            <Navbar/>
+            <div className="row align-items-start justify-content-center">
                 <div className="col-sm-6">
                     <div className="row align-items-center justify-content-center">
                         <div className="col-sm-6">
-                            <img src="" alt="" />
+                            <img src={chennai2} alt="" className='w-100'/>
                         </div>
                         <div className="col-sm-6">
                             <div className='form-row'>
@@ -40,7 +45,7 @@ export const AdsProfileEdit = () =>
                     </div>
                 </div>
                 <div className="col-sm-6">
-                    <img src="" alt="" />
+                    <img src={map} alt="" className='w-100'/>
                 </div>
             </div>
         </div>
