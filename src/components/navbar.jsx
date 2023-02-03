@@ -31,7 +31,7 @@ export const Navbar = (props) =>
                                    <Link to='/my-ads'>
                                    <img src={navprofile} width="100px" height="40px"></img></Link>
                                    :
-                                   <Link to='/my-ads-2'>
+                                   <Link to='/profile-menu'>
                                     <img src={navprofile} width="100px" height="40px"></img></Link>
 
                                    }

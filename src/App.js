@@ -15,9 +15,7 @@ function App()
       <BrowserRouter>
         <Routes>
         <Route exact path='/my-ads' element={<AdsProfileMain />} />'    
-        <Route exact path='/my-ads-2' element={< AdsProfileMenu />} />
-
-'
+        <Route exact path='/profile-menu' element={< AdsProfileMenu />} />
 
           <Route exact path='/ads' element={<AdsProfileMain />} />
           <Route exact path='/edit-ads' element={<AdsProfileEdit />} />
