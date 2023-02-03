@@ -14,6 +14,8 @@ function App()
     <div className="App inter">
       <BrowserRouter>
         <Routes>
+        <Route exact path='/' element={<AdsProfileMain />} />'    
+
         <Route exact path='/my-ads' element={<AdsProfileMain />} />'    
         <Route exact path='/profile-menu' element={< AdsProfileMenu />} />
 
