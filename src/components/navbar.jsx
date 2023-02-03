@@ -26,7 +26,15 @@ export const Navbar = (props) =>
 
                             <li class="nav-item active">
                                 <Link class="nav-link" to="/" id="navbarDropdownMenuLink">
-                                    <img src={navprofile} width="100px" height="40px"></img>
+                                   { 
+                                   window.screen.width > 660 ?
+                                   <Link to='/my-ads'>
+                                   <img src={navprofile} width="100px" height="40px"></img></Link>
+                                   :
+                                   <Link to='/my-ads-2'>
+                                    <img src={navprofile} width="100px" height="40px"></img></Link>
+
+                                   }
                                     {/* <PersonIcon color="white"/> */}
                                 </Link>
 

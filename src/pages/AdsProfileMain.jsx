@@ -41,10 +41,14 @@ const AdsProfileMain = () => (
 
             </div>
             <div className='col-sm-5 py-3 ads-card px-4 mb-4 mb-sm-0'>
-              <p className='pb-4'>Under Screening</p>
-              <span><img src={house} alt="" width={'10%'} /> <span className='font-weight-bold mx-1'>{5}</span></span>
-              <p className='float-right m-0' ><ChevronRightOutlinedIcon /></p>
-
+            <Link to='/screening-ads' className='text-dark'>
+              <p>
+                  <p className='pb-4'>Under Screening</p>
+                  <span><img src={house} alt="" width={'10%'} /> <span className='font-weight-bold mx-1'>{5}</span></span>
+                  <p className='float-right m-0' ><ChevronRightOutlinedIcon /></p>
+  
+              </p> 
+            </Link> 
             </div>
           </div>
           <div class="row align-items-center justify-content-start text-left">

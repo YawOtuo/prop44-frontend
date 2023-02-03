@@ -1,23 +1,29 @@
+import { Link } from 'react-router-dom'
 import { Navbar } from '../components/navbar'
 import chennai2 from '../images/pic1-chennai2.png'
 import map from '../images/sanFransisco-map.png'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+
 
 export const AdsProfileEdit = () =>
 {
     return (
-        <div className="container">
+        <div className="container-fluid">
             <Navbar />
-            <div className="row align-items-start justify-content-center">
+            <div className="row align-items-start justify-content-center  px-4">
                 <div className="col-sm-6">
                     <div class="row align-items-start justify-content-start py-3">
                         <div className='col-sm-10 text-left'>
-                            <h3>Edit Ads</h3>
+                            <Link to='/my-ads' className='text-dark'>
+                                <span className='d-inline '><ArrowBackIcon />
+                                    <p className='d-inline px-3 font-weight-bold'>Active Ads</p></span>
+                            </Link>
                         </div>
                     </div>
                     <div className="row align-items-center justify-content-center text-left">
                         <div className="col-sm-6">
                             <img src={chennai2} alt="" className='w-100' />
-                            <p>You can upload video (.mp4, .mkv, .3gp, .webm) and images (.jpg, .png).
+                            <p className='pt-3 smaller-font-13'>You can upload video (.mp4, .mkv, .3gp, .webm) and images (.jpg, .png).
                                 Max 5 files.</p>
                         </div>
                         <div className="col-sm-6">
@@ -100,12 +106,16 @@ export const AdsProfileEdit = () =>
                                 </div>
 
                             </div>
-                            <button className='btn btn-dark'>Deposit</button>
+                            <button className='btn btn-dark
+                            px-4 my-2 d-none d-sm-inline'>Update</button>
                         </div>
                     </div>
                 </div>
                 <div className="col-sm-6">
-                    <img src={map} alt="" className='w-100' height={'50%'} width={'50%'}/>
+                    <img src={map} alt="" className='w-100' height={'40%'} width={'10%'} />
+                    <button className='btn btn-dark my-5 d-inline
+                    px-5 d-sm-none'>Update</button>
+
                 </div>
             </div>
         </div>
